@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejemplo04032022;
+
+/**
+ *
+ * @author Fernando
+ */
+public class Padre extends Abuelo  implements IMiInterface{
+    @Override
+    public void MimetodoAbstracto() {
+        System.out.println("Hola desde PADRE");
+    }
+
+    public Padre() {
+    }
+    
+    
+}
